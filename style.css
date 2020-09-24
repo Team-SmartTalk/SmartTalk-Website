@@ -1,0 +1,102 @@
+/* Elements */
+h1 {
+    font-family: monospace;
+    font-weight: normal;
+    line-height: 60px;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-family: serif;
+    font-size: 20px;
+    padding-bottom: 0px;;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+}
+
+p {
+    /* margin: 0px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-family: sans-serif;
+    color: black;
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+
+a {
+    color: green;
+    font-weight: bold;
+}
+
+li {
+    font-family: sans-serif;
+    list-style-type: circle;
+    font-size: 18px;
+}
+
+img {
+
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/* divs */
+
+
+.header {
+    background-color: white;
+    margin: 0px;
+    padding: 5px;
+}
+
+.header img {
+    margin-right: 0;
+    margin-top: 0;
+}
+
+.information {
+    margin: auto;
+    background-color: #efefef;
+}
+
+
+.navigation {
+    
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+}
+
+.navigation li {
+    float: left;
+}
+
+.navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 100px;
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    background-color: #333;
+}
