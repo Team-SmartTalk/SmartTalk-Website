@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Technology Resources For The Project</title>
+        <!--Add our team logo as the favicon on each tab.-->
+        <link rel="icon" 
+            type="image/png" 
+            href="TeamLogo.png">
+    </head>
+        <!-- Body of the HTML Page -->
+        <body>
+        <!--Navigation bar and the list of html names-->
+        <div class = "navigation">
+        <!--Beginning of the Navigation bar list -->
+         <ul>
+              <!-- Set class = "active" to the current HTML File -->
+              <li><a class="active" href="index.html">Home</a></li>
+              <li><a href="resources.html">Resources </a></li>
+             <li><a href="team.html">The Team</a></li>
+              <li><a href="solutions.html">High Level Reqs/Solution</a></li>
+              <li><a href="codebase.html">Codebase/Demo</a></li>
+              <li><a href="tech.html">Technologies</a></li>
+
+         </ul>
+
+        </div>
+        <!-- Div class for where the page contents will be placed
+        All text will be centered -->
+        <div class = "information">
+            <!-- call to the style sheet -->
+            <link rel="stylesheet" href="style.css">
+
+            <!-- Everything labeled as h1 has the same formatting
+            If another format is desired  label as h# and add to the style.css-->
+            <h1>Technologies Used</h1>
+
+            <!-- paragraphs and general information can go here-->
+                <p>
+                Here we list our core technologies that compose the project. Check back soon as we continue to gather 
+                requirements and test exciting options! THIS CURRENT LIST IS A FLUID SAMPLE.
+                </p>
+
+                <table class="techtable">
+                    <tr>
+                      <td class="techimgcell"><img class="techimg" src = "FlutterLogo.jpg"></td>
+                      <td class="techdesc">Flutter is our current front runner for a cross platform mobile app!</td>
+                    </tr>
+
+                    <tr>
+                        <td class="techimgcell"><img class="techimg" id = "firebaselogo" src = "FirebaseLogo.png"></td>
+                        <td class="techdesc">Firebase will allow our mobile and web applications to communicate and share a database to store users and audio files.</td>
+                    </tr>
+                    
+                  </table>
+
+           <!---- <div class = "techgrid"> 
+               <img class = "tech img1" src="FlutterLogo.jpg">
+                <div class = "tech desc1">Test</div>
+
+            </div>      -->
+
+        </div>
+        </body>
+</html>
