@@ -73,6 +73,8 @@ img {
 }
 
 
+/*Custom table styling for tech and index pages*/
+
 .techtable{
     width: 80%;
     text-align: center;
@@ -85,7 +87,6 @@ img {
     text-align: left;
     margin: auto;
     width: 10%;
-    /*border: 8px solid red;*/
 }
 
 .techimg{
@@ -107,8 +108,13 @@ img {
     font-size: 18px;
     text-align: left;
 }
+/*Index.html's team table*/
+#introtable {
+    margin-left: auto;
+    margin-right: auto;
+}
 
-
+/*Nav bar at the top of screen*/
 .navigation {
 
 }
