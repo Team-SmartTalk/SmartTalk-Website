@@ -42,7 +42,7 @@ a {
 li {
     font-family: sans-serif;
     list-style-type: circle;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 img {
@@ -70,6 +70,42 @@ img {
 .information {
     margin: auto;
     background-color: #efefef;
+}
+
+
+.techtable{
+    width: 80%;
+    text-align: center;
+    border-spacing: 50px;
+    border-top: 5px solid black;
+    margin-left: 10%;
+}
+
+.techimgcell{
+    text-align: left;
+    margin: auto;
+    width: 10%;
+    /*border: 8px solid red;*/
+}
+
+.techimg{
+    display: block;
+    width: auto;
+    height: 20%;
+}
+
+#firebaselogo {
+    height: 40%;
+    width: auto;
+}
+
+.techdesc {
+    font-family: sans-serif;
+    vertical-align:top;
+    padding-top: 40px;
+    padding-left: 2%;
+    font-size: 18px;
+    text-align: left;
 }
 
 
