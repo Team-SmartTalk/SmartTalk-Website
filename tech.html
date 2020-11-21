@@ -28,26 +28,55 @@
         <div class = "information">
             <!-- call to the style sheet -->
             <link rel="stylesheet" href="style.css">
+            
 
             <!-- Everything labeled as h1 has the same formatting
             If another format is desired  label as h# and add to the style.css-->
             <h1>Technologies Used</h1>
+            <img src="TeamLogo.png" alt="Joe" width="250" height="250">
 
             <!-- paragraphs and general information can go here-->
                 <p>
-                Here we list our core technologies that compose the project. Check back soon as we continue to gather 
-                requirements and test exciting options! THIS CURRENT LIST IS A FLUID SAMPLE.
+                Here we list our core technologies that compose the project. These technologies are used to address the core requirements and goals of the project. 
                 </p>
 
                 <table class="techtable">
                     <tr>
-                      <td class="techimgcell"><img class="techimg" src = "FlutterLogo.jpg"></td>
-                      <td class="techdesc">Flutter is our current front runner for a cross platform mobile app!</td>
+                        <th><h1>Technologies</h1></th>
+                        <th></th>
+                        <th><h1>Description</h1></th>
+                    </tr>
+                    <tr class = "techrow">
+                        <div>
+                        <td><h2>Web and Mobile Framework</h2></td>
+                      <td class="techimgcell"><img class="techimg" id="Flutter" src = "FlutterLogo.jpg"></td>
+                      <td class="techdesc"><strong>Flutter</strong> allows us to build cross platform mobile applications that build on both Android and iOS devices. This allows
+                          our client to engage a larger userbase of language learners as there is no restriction on the choice of mobile operating system. 
+                      </td>
                     </tr>
 
-                    <tr>
+                    <tr class = "techrow">
+                        <td><h2>Backend Database and Hosting</h2></td>
                         <td class="techimgcell"><img class="techimg" id = "firebaselogo" src = "FirebaseLogo.png"></td>
-                        <td class="techdesc">Firebase will allow our mobile and web applications to communicate and share a database to store users and audio files.</td>
+                        <td class="techdesc"><strong>Firebase</strong> will allow our mobile and web applications to communicate and share a database to store users and audio files.</td>
+                    </tr>
+
+                    <tr class = "techrow">
+                        <td><h2>Automatic Speech Recognition (ASR)</h2></td>
+                        <td class="techimgcell"><img class="techimg" id = "pocketsphinx" src = "asr.png"></td>
+                        <td class="techdesc"><strong>Pocketsphinx</strong> is an Automatic Speech Recognition technology designed by Carnegie Mellon University for use in mobile phones.
+                            Pocketsphinx is designed to be run on mobile devices in order to provide ASR feedback for recorded speech. Pocketsphinx provides quality ASR
+                            feedback without using a significant amount of resources on the user's device.
+                        </td>
+                    </tr>
+                    
+                    <tr class = "techrow">
+                        <td><h2>Version Control</h2></td>
+                        <td class="techimgcell"><img class="techimg" id = "pocketsphinx" src = "GHlogo.png" style="width:200x; height: 150px;"></td>
+                        <td class="techdesc"><strong>Github</strong> is the most popular platform for version control. Github is an industry standard application with great support
+                            for code versioning, continuous integration and deployement, and overall collaboration. Github and Git are a pivotal part of any collaborative software
+                            project and/or system. 
+                        </td>
                     </tr>
                     
                   </table>

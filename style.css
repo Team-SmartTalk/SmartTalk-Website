@@ -76,6 +76,7 @@ img {
 /*Custom table styling for tech and index pages*/
 
 .techtable{
+    border-collapse: collapse;
     width: 80%;
     text-align: center;
     border-spacing: 50px;
@@ -89,10 +90,16 @@ img {
     width: 10%;
 }
 
+.techrow{
+    padding-bottom: 2em;
+    
+}
+
 .techimg{
     display: block;
     width: auto;
     height: 20%;
+    padding-bottom: 20%;
 }
 
 #firebaselogo {
@@ -107,6 +114,7 @@ img {
     padding-left: 2%;
     font-size: 18px;
     text-align: left;
+    padding-bottom: 2%;
 }
 /*Index.html's team table*/
 #introtable {
@@ -116,7 +124,7 @@ img {
 
 /*Nav bar at the top of screen*/
 .navigation {
-
+    position: relative;
 }
 
 .navigation ul {
