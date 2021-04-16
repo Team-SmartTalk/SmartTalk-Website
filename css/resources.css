@@ -1,0 +1,185 @@
+/* Globals */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: monospace;
+}
+
+h1, .h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+h2, .h2 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 25px;
+  padding-bottom: 10px;
+}
+
+a {
+  color: green;
+  font-weight: bold;
+}
+
+li {
+  list-style-type: circle;
+  font-size: 16px;
+  line-height: 1.4;
+  padding: 7px;
+  margin-left: 40px;
+}
+
+/* Page */
+
+
+.resources-page {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  min-height: 100vh;
+  position: relative;
+}
+
+.resources-body {
+  padding-top: 20px;
+}
+
+/* Components */
+
+/* Navbar */
+
+.navbar {
+  position: relative;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 100px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #333;
+}
+
+/* Sidebar */
+
+.sidebar {
+  display: block;
+  background-color: #f1f1f1;
+  
+}
+
+.sidebar-menu {
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.sidebar-title {
+  font-size: 28px;
+  margin: 20px 0 0 10px;
+}
+
+.sidebar .nav-link {
+  display: inline-block;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px;
+  white-space: nowrap;
+  border-bottom: 1px solid black;
+  width: 100%;
+  transition: color 0.2s ease;
+}
+
+.sidebar .nav-link:hover {
+  color: green;
+}
+
+/* Video Block List */
+
+.video-presentations {
+}
+
+.video-block-list {
+  padding-top: 20px;
+  display: flex;
+  flex-flow: wrap;
+  gap: 20px;
+}
+
+.video-block-video {
+  position: relative;
+  overflow: hidden;
+  width: 500px;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.video-block-title {
+  display: block;
+  text-align: center;
+}
+
+/* Sections */ 
+
+.text-section {
+  padding-bottom: 20px;
+}
+
+
+/* Utilities */
+
+.container {
+  margin: auto;
+  width: 90%;
+  max-width: 1440px;
+}
+
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.responsive-iframe-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}

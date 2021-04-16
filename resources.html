@@ -1,82 +1,160 @@
-
 <html>
+
     <head>
         <title>Technology Resources For The Project</title>
         <!--Add our team logo as the favicon on each tab.-->
-        <link rel="icon"
-            type="image/png"
-            href="TeamLogo.png">
+        <link rel="icon" type="image/png" href="TeamLogo.png">
+        <link rel="stylesheet" href="css/resources.css">
     </head>
-        <!-- Body of the HTML Page -->
-        <body>
-        <!--Navigation bar and the list of html names-->
-        <div class = "navigation">
-        <!--Beginning of the Navigation bar list -->
-         <ul>
-              <!-- Set class = "active" to the current HTML File -->
-              <li><a class="active" href="index.html">Home</a></li>
-              <li><a href="resources.html">Deliverables</a></li>
-             <li><a href="team.html">The Team</a></li>
-              <li><a href="solutions.html">High Level Reqs/Solution</a></li>
-              <li><a href="codebase.html">Codebase/Demo</a></li>
-              <li><a href="tech.html">Technologies</a></li>
 
-         </ul>
+    <body>
 
-        </div>
-        <!-- Div class for where the page contents will be placed
-        All text will be centered -->
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <!-- Set class = "active" to the current HTML File -->
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="resources.html">Deliverables</a></li>
+                    <li><a href="team.html">The Team</a></li>
+                    <li><a href="solutions.html">High Level Reqs/Solution</a></li>
+                    <li><a href="codebase.html">Codebase/Demo</a></li>
+                    <li><a href="tech.html">Technologies</a></li>
+                </ul>
+            </nav>
+        </header>
 
-        <div class = "information">
-            <!-- call to the style sheet -->
-            <link rel="stylesheet" href="style.css">
+        <main>
+            <div class="resources-page">
+                <aside class="sidebar">
+                    <nav class="sidebar-menu">
+                        <span class="sidebar-title"> Delveriables</span>
+                        <hr>
+                        <a href="#project-description" class="nav-link">Project Description</a>
+                        <a href="#Team-Inv" class="nav-link">Team Inventory</a>
+                        <a href="#Team-Stand" class="nav-link">Team Standards</a>
+                        <a href="#Tech-Feas" class="nav-link">Tech Feaseablitiy</a>
+                        <a href="#Mini-Intro" class="nav-link">Mini Intro</a>
+                        <a href="#Desgin-Review" class="nav-link">Design Review</a>
+                        <a href="#Requirments-Specs" class="nav-link">Requirments Spec</a>
+                        <a href="#Software-Design" class="nav-link">Software Design</a>
+                        <a href="#Testing-Plan" class="nav-link">Testing Plan</a>
+                        <a href="#Capstone-Design" class="nav-link">Capstone Design</a>
+                        <a href="#Capstone-Poster" class="nav-link">Captone Poster</a>
+                        <a href="#Videos" class="nav-link">Videos</a>
+                    </nav>
+                </aside>
 
-            <!-- Everything labeled as h1 has the same formatting
-            If another format is desired  label as h# and add to the style.css-->
-            <h1>Team Documents</h1>
+                <!-- Div class for where the page contents will be placed All text will be centered -->
+                <div class="resources-body">
+                    <div class="container">
+                        <h1>Deliverables</h1>
+                        <section class="text-section" id="project-description">
+                            <h2>Project Description</h2>
+                            <p>The client's proposal for this Capstone Project</p>
+                            <iframe src="documents/ProjectDetails.pdf" width="100%" height="600px" height="300" style="border:8px solid black"></iframe>
+                        </section>
+                        <section class="text-section" id="Team-Inv">
+                            <h2>Team Inventory</h2>
+                            <p>Introducing the team members of SmartTalk. </p>
+                            <iframe src="documents/TeamInventory.pdf" width="100%" height="600px" height="300" style="border:8px solid black"></iframe>
+                        </section>
+                        <section class="text-section" id="Team-Stand">
+                            <h2>Team Standards</h2>
+                            <p>Outlines the rules and roles that our team will follow. </p>
+                            <iframe src="documents/TeamStandards.pdf" width="100%" height="600px" height="300" style="border:8px solid black"></iframe>
+                        </section>
+                        <section class="text-section" id="Tech-Feas">
+                            <h2>Tech Feasibility</h2>
+                            <p>Documents outlines all the challenges & solutions that our team might encounter. </p>
+                            <iframe src="documents/TechFeas.pdf" width="100%" height="600px" height="300" style="border:8px solid black"></iframe>
+                        </section>
+                        <section class="text-section" id="Mini-Intro">
+                            <h2>Mini Intro Slides</h2>
+                            <p>Capstone presentation to introduce our team & the project ( Video is down below ). </p>
+                            <iframe src="documents/TeamMiniIntro.pdf" width="100%" height="600px" height="300" style="border:8px solid black"></iframe>
+                        </section>
+                        <section class="text-section" id="Desgin-Review">
+                            <h2>Design Review Slides</h2>
+                            <p>Capstone presentation to go more in detail about the project ( Video is down below ). </p>
+                            <iframe src="documents/TeamDesignReview.pdf" width="100%" height="600px" height="300" style="border:8px solid black"></iframe>
+                        </section>
+                        <section class="text-section">
+                            <h2>Design Review Slides 2</h2>
+                            <p>Capstone presentation to go more in detail about the project ( Video is down below ). </p>
+                            <iframe src="documents/Design_Review_2.pdf" width="100%" height="600px" height="300" style="border:8px solid black"></iframe>
+                        </section>
+                        <section class="text-section" >
+                            <h2>Design Review Slides 3</h2>
+                            <p>Capstone presentation to go more in detail about the project ( Video is down below ). </p>
+                            <iframe src="documents/Design_Review_3.pdf" width="100%" height="600px" height="300" style="border:8px solid black"></iframe>
+                        </section>
+                        <section class="text-section" id="Requirments-Specs">
+                            <h2>Requirements Specification</h2>
+                            <p>Explains each requirement that was obtain from weekly meeting with our sponsor. </p>
+                            <iframe src="documents/RequirementsDoc.pdf" width="100%" height="600px" height="300" style="border:8px solid black"></iframe>
+                        </section>
+                        <section class="text-section" id="Software-Design">
+                            <h2>Software Design</h2>
+                            <p>Explaining all the componets on a deeper level. As well displaying a blueprint of our product. </p>
+                            <iframe src="documents/SoftwareDesignDoc.pdf" width="100%" height="600px" height="300" style="border:8px solid black"></iframe>
+                        </section>
+                        <section class="text-section" id="Testing-Plan">
+                            <h2>Testing Plan</h2>
+                            <p>Testing all the componets in the project.</p>
+                            <iframe src="documents/SmartTalk Software Testing Document.pdf" width="100%" height="600px" height="300" style="border:8px solid black"></iframe>
+                        </section>
+                        <section class="text-section" id="Capstone-Design">
+                            <h2>CapStone Design</h2>
+                            <p>Explaining the project to the whole engieering department for UGRADS symposium.</p>
+                            <iframe src="documents/Capstone Design (1).pdf" width="100%" height="600px" height="300" style="border:8px solid black"></iframe>
+                        </section>
+                        <section class="text-section" id="Capstone-Poster">
+                            <h2>Capstone Poster</h2>
+                            <p>Showing all the things we have to implement this product over the year at somewhat low technical level. </p>
+                            <iframe src="documents/SmartTalk_CapStonePoster.pptx (5).pdf" width="100%" height="600px" height="300" style="border:8px solid black"></iframe>
+                        </section>
 
-             <!-- Optional Image Format-->
-		       <img src="TeamLogo.png" alt="Joe" width="250" height="250">
+                        <!-- Everything labeled as h2 has the same formatting If another format is desired  label as h# and add to the style.css-->
+                        <section class="video-presentations">
+                            <h2 id="Videos">Video Presentations:</h2>
+                            <hr>
+                            <div class="video-block-list">
+                                <div class="video-block">
+                                    <span class="video-block-title">Mini Intro</span>
+                                    <div class="video-block-video">
+                                        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/m4m9IuAQ_7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="video-block">
+                                    <span class="video-block-title">Design Review</span>
+                                    <div class="video-block-video">
+                                        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/uJZsCdHfj7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="video-block">
+                                    <span class="video-block-title">Design Review #2</span>
+                                    <div class="video-block-video">
+                                        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/491neI5W-Lc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-                <!-- paragraphs and general information can go here-->
+                                    </div>
+                                </div>
+                                <div class="video-block">
+                                    <span class="video-block-title">Design Review #3</span>
+                                    <div class="video-block-video">
+                                        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/zCYiFfeLgCc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="video-block">
+                                    <span class="video-block-title">Capstone Design</span>
+                                    <div class="video-block-video">
+                                        <iframe class="responsive-iframe"  src="https://www.youtube.com/embed/syCc0-PWt74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                    </div>
+                                </div> 
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
 
-
-                <p> Project Description: The client's proposal for this Capstone Project<p>
-                      <iframe src="documents/ProjectDetails.pdf" width="100%" height="600px" height = "300" style="border:8px solid black"></iframe>
-
-                <p> Team Inventory: Introducing the team members of SmartTalk. <p>
-                     <iframe src="documents/TeamInventory.pdf" width="100%" height="600px" height = "300" style="border:8px solid black"></iframe>
-
-                <p> Team Standards: Outlines the rules and roles that our team will follow. <p>
-                      <iframe src="documents/TeamStandards.pdf" width="100%" height="600px" height = "300" style="border:8px solid black"></iframe>
-
-
-                  <p>Tech Feasibility: Documents outlines all the challenges & solutions that our team might encounter. <p>
-                     <iframe src="documents/TechFeas.pdf" width="100%" height="600px" height = "300" style="border:8px solid black"></iframe>
-
-                  <p> Mini Intro Slides: Capstone presentation to introduce our team & the project ( Video is down below ). <p>
-                      <iframe src="documents/TeamMiniIntro.pdf" width="100%" height="600px" height = "300" style="border:8px solid black"></iframe>
-
-                  <p>Design Review Slides: Capstone presentation to go more in detail about the project ( Video is down below ). <p>
-                       <iframe src="documents/TeamDesignReview.pdf" width="100%" height="600px" height = "300" style="border:8px solid black"></iframe>
-
-                  <p> Requirements Specification: Explains each requirement that was obtain from weekly meeting with our sponsor.  <p>
-                       <iframe src="documents/RequirementsDoc.pdf" width="100%" height="600px" height = "300" style="border:8px solid black"></iframe>
-		
-		 <p> Software Design: Explaining all the componets on a deeper level. As well displaying a blueprint of our product.   <p>
-                       <iframe src="documents/SoftwareDesignDoc.pdf" width="100%" height="600px" height = "300" style="border:8px solid black"></iframe>
-
-
-            <!-- Everything labeled as h2 has the same formatting
-                        If another format is desired  label as h# and add to the style.css-->
-        </div>
-
-        <h1> Video Presentations: </h1>
-        <p> Mini Intro: <p>
-            <a href="https://www.youtube.com/watch?v=m4m9IuAQ_7U&feature=youtu.be" >Watch our Mini Intro here </a>
-        <p>Design Review: <p>
-            <a href="https://www.youtube.com/watch?v=uJZsCdHfj7k" >Watch our Design Review here </a>
-	<p>Design Review 2: <p>
-            <a href="https://youtu.be/491neI5W-Lc" >Watch our Design Review 2 here </a>
-        </body>
 </html>
