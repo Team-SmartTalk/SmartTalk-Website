@@ -6,26 +6,27 @@
     </head>
         <!-- Body of the HTML Page -->
         <body>
-        <!--Navigation bar and the list of html names-->
-        <div class = "navigation">
-        <!--Beginning of the Navigation bar list -->
-         <ul>
-              <!-- Set class = "active" to the current HTML File -->
-              <li><a class="active" href="index.html">Home</a></li>
-              <li><a href="resources.html">Deliverables</a></li>
-              <li><a href="team.html">The Team</a></li>
-              <li><a href="solutions.html">High Level Reqs/Solution</a></li>
-              <li><a href="codebase.html">Codebase/Demo</a></li>
-              <li><a href="tech.html">Technologies</a></li>
-
-         </ul>
-
-        </div>
+          <header>
+            <nav class="navbar">
+                <ul>
+                    <!-- Set class = "active" to the current HTML File -->
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="resources.html">Deliverables</a></li>
+                    <li><a href="team.html">The Team</a></li>
+                    <li><a href="solutions.html">High Level Reqs/Solution</a></li>
+                    <li><a href="codebase.html">Codebase/Demo</a></li>
+                    <li><a href="tech.html">Technologies</a></li>
+                    <li><a href="honors.html">Honors Capstone</a></li>
+                </ul>
+            </nav>
+        </header>
         <!-- Div class for where the page contents will be placed
         All text will be centered -->
         <div class = "information">
             <!-- call to the style sheet -->
             <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="css/resources.css">
+
 
             <!-- Everything labeled as h1 has the same formatting
             If another format is desired  label as h# and add to the style.css-->
@@ -38,10 +39,18 @@
 
                 <table class="techtable">
                   <tr>
-                    <td><h1>Github Organization</h1></td>
+                    <td><h2>Github Organization</h2></td>
                       <td class="techdesc">Here is our Github organization link. Currently it houses technical demos that prove the feasibility
                         of our chosen technolgies. <a href="https://github.com/Team-SmartTalk">Access it here</a></td>
                     </tr>
+                    <tr>
+                      <td><h2>Mobile App Demo</h2></td>
+                        <td class="techdesc"><iframe src="https://drive.google.com/file/d/1x_ClwnfFdEPVTbOqNebzyunL2wp01Qse/preview" width="640" height="480"></iframe></td>
+                      </tr>
+                      <tr>
+                        <td><h2>Web App Demo</h2></td>
+                          <td class="techdesc"><iframe src="https://drive.google.com/file/d/1RbiKBo-932jLmhfcZmd4G9O5y05wX28K/preview" width="640" height="480"></iframe></td>
+                        </tr>
                   </table>   
 
         </div>
